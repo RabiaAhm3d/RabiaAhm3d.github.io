@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Start of Zeacon Code -->
+    <script type="text/javascript" async="" id="zeacon-sdk"
+        src="https://licencetotest.com/sdk/correlator.js?api-key=c0988d6d-b45f-48f0-869a-54a4720eb41e"></script>
+    <!-- End of Zeacon Code -->
+</head>
+
+<body>
+    <div style="padding:56.25% 0 0 0;position:relative">
+        <div style="height:100%;left:0;position:absolute;top:0;width:100%"><iframe
+                src="https://licencetotest.com/embed/2aae808df2f" title="Zeacon | Embed Video" width="100%"
+                height="100%" allowfullscreen="" style="border:0px"></iframe>
+            <script id="zeacon-sdk-correlation-manager" type="text/javascript"
+                src="https://licencetotest.com/sdk/correlation-manager/bundle.js"></script>
+        </div>
+    </div>
+    <form id="contactForm" onsubmit="return submitForm()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="Format: 123-456-7890" required>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
